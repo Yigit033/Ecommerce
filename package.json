@@ -1,0 +1,35 @@
+{
+  "name": "ecommerce",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port=3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@sanity/client": "^5.4.2",
+    "@sanity/image-url": "^1.0.1",
+    "@stripe/stripe-js": "^1.25.0",
+    "canvas-confetti": "^1.5.1",
+    "next": "12.1.0",
+    "next-sanity-image": "6.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hot-toast": "^2.2.0",
+    "react-icons": "^4.3.1",
+    "stripe": "^8.209.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.18.6",
+    "eslint": "8.38.0",
+    "eslint-config-next": "13.3.0"
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": ".eslintrc.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
